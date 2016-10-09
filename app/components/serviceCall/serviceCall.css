@@ -1,0 +1,44 @@
+.grayb {
+  background-color: #f0f0f0;
+}
+.scallBox {
+  width: 16rem;
+  height: 1.7rem;
+  text-align: center;
+  background-color: #fa5903;
+  font-size: 0.7rem;
+  color: white;
+  padding: 0.9rem 0 1.1rem 0;
+}
+.scallBox i {
+  height: 1.2rem;
+  width: 1.2rem;
+  display: inline-block;
+  color: white;
+  vertical-align: middle;
+  background-image: url(images/phone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0.05rem 0.5rem;
+}
+.scallTitle {
+  height: 2.2rem;
+  width: 100%;
+  border-bottom: 1px #e6e6e6 solid;
+  background-color: #fff;
+}
+.scallTitle ul li {
+  width: 49.9%;
+  float: left;
+  height: 1rem;
+  margin: 0.6rem 0 0.6rem 0;
+  line-height: 1rem;
+  text-align: center;
+  color: #999;
+  font-size: 0.75rem;
+}
+.scallTitle ul li:first-child {
+  border-right: 1px #e6e6e6 solid;
+}
+/*# sourceMappingURL=serviceCall.css.map */

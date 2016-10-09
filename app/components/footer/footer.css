@@ -1,0 +1,41 @@
+.footerBox {
+  position: fixed;
+  bottom: 0px;
+  width: 16rem;
+  height: 2.55rem;
+  border-bottom: 1px #808080 solid;
+  background-color: #efefef;
+}
+.footerBox > ul > li {
+  width: 4rem;
+  height: 1.5rem;
+  font-size: 0.5rem;
+  color: #808080;
+  float: left;
+  text-align: center;
+}
+.footerBox > ul > li span {
+  width: 1.2rem;
+  height: 1.2rem;
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-top: 0.4rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #808080;
+}
+:nth-child(1) span {
+  background-image: url(images/img1.png);
+}
+.footerBox > ul > li:nth-child(2) span {
+  background-image: url(images/img2.png);
+}
+.footerBox > ul > li:nth-child(3) span {
+  background-image: url(images/img3.png);
+}
+.footerBox > ul > li:nth-child(4) span {
+  background-image: url(images/img4.png);
+}
+/*# sourceMappingURL=footer.css.map */
